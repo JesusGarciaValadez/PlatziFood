@@ -1,0 +1,79 @@
+.btn-group {
+    @apply w-full flex flex-wrap align-middle justify-around flex-row box-border;
+}
+
+@screen sm {
+    .btn-group {
+        @apply flex-row;
+    }
+}
+
+@screen md {
+    .btn-group {
+        @apply flex-col align-middle justify-center;
+    }
+}
+
+@screen lg {
+    .btn-group {
+        @apply flex-row justify-around;
+    }
+}
+
+@screen xl {
+    .btn-group {
+        @apply flex-row;
+    }
+}
+
+.btn {
+    @apply block m-auto mt-4 p-4 w-full text-2xl box-border border-2 rounded-lg;
+}
+
+.btn-default {
+    @apply text-black border-gray-300 bg-gray-100;
+}
+
+.btn-default:hover {
+    @apply border-gray-500 bg-gray-300;
+}
+
+.btn-danger {
+    @apply text-white bg-red-400 border-red-600;
+}
+
+.btn-danger:hover {
+    @apply bg-red-600 border-red-800;
+}
+
+.btn-action {
+    @apply bg-blue-400 text-white;
+}
+
+.btn-action:hover {
+    @apply bg-blue-600;
+}
+
+@screen sm {
+    .btn {
+        @apply w-full;
+    }
+}
+
+@screen md {
+    .btn {
+        @apply w-4/5;
+    }
+}
+
+@screen lg {
+    .btn {
+        @apply w-1/4;
+    }
+}
+
+@screen xl {
+    .btn {
+        @apply w-1/6;
+    }
+}

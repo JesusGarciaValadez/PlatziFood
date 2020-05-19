@@ -1,0 +1,19 @@
+.alert {
+    @apply w-4/5 box-border m-auto mt-2 mb-2 p-8 text-left text-gray-900 font-sans text-2xl border-2 rounded-lg;
+}
+
+.alert-default {
+    @apply border-gray-300 bg-gray-100;
+}
+
+.alert-danger {
+    @apply border-red-600 bg-red-400 text-white;
+}
+
+.alert-warning {
+    @apply border-orange-600 bg-orange-400 text-black;
+}
+
+.alert-info {
+    @apply border-blue-600 bg-blue-400 text-white;
+}
