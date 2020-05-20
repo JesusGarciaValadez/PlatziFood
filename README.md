@@ -11,5 +11,5 @@ PlatziFood repository using TailwindCSS
     <a href="https://www.npmjs.com/package/tailwindcss"><img src="https://img.shields.io/npm/dt/tailwindcss.svg" alt="Total Downloads"></a>
     <a href="https://github.com/tailwindcss/tailwindcss/releases"><img src="https://img.shields.io/npm/v/tailwindcss.svg" alt="Latest Release"></a>
     <a href="https://github.com/tailwindcss/tailwindcss/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/tailwindcss.svg" alt="License"></a>
-    [![Netlify Status](https://api.netlify.com/api/v1/badges/93469020-b2fa-479a-abdb-f86fe5e2de10/deploy-status)](https://app.netlify.com/sites/platzifood/deploys)
+    <a href="https://api.netlify.com/api/v1/badges/93469020-b2fa-479a-abdb-f86fe5e2de10/deploy-status">Netlify Status<img src="https://app.netlify.com/sites/platzifood/deploys" alt="Netlify status"></a>
 </p>
